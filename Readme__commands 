@@ -1,0 +1,30 @@
+locate zap.sh----- to locate the zap.sh
+
+
+
+zaproxy -daemon -host 127.0.0.1 -port 8080-----to run or start
+/snap/bin/zaproxy -daemon -host 127.0.0.1 -port 8080-----to run or start
+zap.sh -daemon -host 127.0.0.1 -port 8080 -----to run or start
+zaproxy -daemon -host 127.0.0.1 -port 8080 -config api.disablekey=true -config 'dirs.base=/tmp/zap-session'
+
+
+source myenv/bin/activate-------to activate the reportlab 
+ps aux | grep zaproxy------to know what what are runnnig
+pkill -f zaproxy-----to kill zaproxy
+python3 main.py-----to run the manin code 
+pip install reportlab-------to install reportlab
+sudo apt install zaproxy
+netstat -tulnp | grep 8080-----to check 
+kill -9 85869-----to delete/kill the extra PID
+python3 main.py------to run the code
+
+
+
+
+open AutoVulnScan then right click to open terminal here
+then check how many running with cmd 12 if more than 1 running, then kill one PID with cmd 18
+then check again how many running with cmd 12
+then in one terminal run cmd 8 
+then in another terminal run cmd 11 and then run cmd 19
+after scaning the website you will get the report in PDF form in Scan folder
+to scan another  website go to config.ini file and change the site to scan
